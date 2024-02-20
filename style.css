@@ -14,11 +14,11 @@ p {
   opacity: .7;
 }
 
-img {
+/* img {
   width: 150px;
   height: 150px;
   object-fit: cover;
-}
+} */
 
 a {
   color: #1A48E3;
@@ -33,6 +33,7 @@ a:hover {
 
 .container {
 	width: 800px;
+	background-position: center;
 	margin: auto;
 }
 
@@ -40,10 +41,9 @@ a:hover {
 	background: white;
 	box-shadow: 0 0 16px rgba(0,0,0,0.6);
 	border-radius: 4px;
-	width: 200px;
+	/*width: 200px;*/
 	text-align: center;
 	padding: 24px;
-	margin: 8px;
 	flex-grow: 1;
 }
 
@@ -118,7 +118,7 @@ a:hover {
 
 @media (min-width: 500px) {
 	.container {
-		width: 400px;
+		width: 300px;
 	}
 }
 
