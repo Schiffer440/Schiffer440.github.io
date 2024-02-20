@@ -100,13 +100,13 @@ a:hover {
 }
 
 .footer {
-	background-color: rgb(102, 100, 100);
+	background-color: #404042;
 	text-align: center;
 	padding: 24px 0;
 }
 
 .footer p { 
-	color: rgb(255, 255, 255);
+	color: white;
 }
 
 @media (max-width: 800px) {
