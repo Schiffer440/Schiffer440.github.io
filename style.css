@@ -1,6 +1,7 @@
 /* Write some CSS below */
 body {
   font-family: Overpass;
+  margin: 0;
 }
 
 h1, h2, h3 {
@@ -30,12 +31,19 @@ a:hover {
   color: #CE2FAE;
 }
 
+.container {
+	width: 800px;
+	margin: auto;
+}
+
 .card {
 	background: white;
-	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	box-shadow: 0 0 16px rgba(0,0,0,0.6);
 	border-radius: 4px;
+	width: 200px;
 	text-align: center;
 	padding: 24px;
+	margin: 8px;
 	flex-grow: 1;
 }
 
@@ -66,9 +74,38 @@ a:hover {
 }
 
 .banner h1 {
+	font-size: 45px;
 	color: white;
+	margin: 0;
 }
 
 .banner p {
+	font-size: 24px;
 	color: white;
+}
+
+.button-blue {
+	background-color: #1A48E3;
+	color: white;
+	padding: 16px 48px;
+	border-radius: 50px;
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.3;
+}
+
+.button-blue:hover {
+	background-color: rgb(17, 17, 105);
+	color: white;
+}
+
+.footer {
+	background-color: rgb(102, 100, 100);
+	text-align: center;
+	padding: 24px 0;
+	font-size: 20px;
+}
+
+.footer p { 
+	color: rgb(255, 255, 255);
 }
